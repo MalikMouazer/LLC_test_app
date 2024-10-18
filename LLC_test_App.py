@@ -206,7 +206,7 @@ with st.sidebar:
         stade_diag_b_ou_c = int(st.checkbox('Stade diag B ou C', value=False, key='stade_diag_b_ou_c'))
         del_13q = int(st.checkbox('Del 13q', value=False, key='del_13q'))
         del_8p = int(st.checkbox('Del 8p', value=False, key='del_8p'))
-        statut_ighv = int(st.checkbox('Statut IGHV', value=False, key='statut_IGHV'))
+        statut_ighv = int(st.checkbox('Statut IGHV (non muté)', value=False, key='statut_IGHV'))
 
         #############--------
         
